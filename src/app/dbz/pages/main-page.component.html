@@ -1,0 +1,10 @@
+<h1> Hola desde DBZ Component</h1>
+
+<div class="row">
+    <div class="col">
+        <dbz-list [charactersList]="characters"></dbz-list>
+    </div>
+    <div class="col">
+        <dbz-form-add-character (onEventEmitter)="onNewCharacter($event)"></dbz-form-add-character>
+    </div>
+</div>
