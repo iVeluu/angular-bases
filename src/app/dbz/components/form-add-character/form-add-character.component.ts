@@ -20,10 +20,10 @@ export class FormAddCharacterComponent {
     
     //Prevent empty characters
     if (this.character.name.trim().length === 0) {
-      console.log('Name is required');
+      alert('Name is required');
       return; 
     }
-    
+
     //Show the character at the console
     console.log('Desde el formulario');
     console.log(this.character);
